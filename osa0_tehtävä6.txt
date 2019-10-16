@@ -1,0 +1,3 @@
+Selain (HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa) -> Palvelin; *Sivun Javascript koodi piirtää 
+muistiinpanojen listan uudelleen ja lähettää tämän palvelimelle json datana. Palvelin vastaa statuskoodilla "201 created" ja sivun muistiinpanot ilmestyvät
+selaimen näytölle. *;

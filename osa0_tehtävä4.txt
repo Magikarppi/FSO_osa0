@@ -1,0 +1,10 @@
+Selain (HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note) -> Palvelin;
+Palvelin (HTTP 302*) -> Selain *//pyytää selainta tekemään uuden HTTP GET pyynnön kohteeseen /notes*;
+Selain (HTTP GET https://fullstack-exampleapp.herokuapp.com/notes) -> Palvelin;
+Palvelin (HTML koodi) -> Selain *Palvelin toimittaa HTML koodin selaimelle*;
+Selain (HTTP GET https://fullstack-exampleapp.herokuapp.com/main.css -> Palvelin; *Selain pyytää palvelinta lähettämään tyylitiedoston*
+Palvelin (main.css) -> Selain *Palvelin toimittaa tyylitiedoston selaimelle;
+Selain (HTTP GET https://fullstack-exampleapp.herokuapp.com/main.js) -> Palvelin; 
+Palvelin (main.js) -> Selain; *Palvelin toimittaa Javascript tiedoston selaimelle*;
+Selain (HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json) -> Palvelin; *Selain pyytää json raakadataa palvelimelta*
+Palvelin (data.json) -> Selain;
